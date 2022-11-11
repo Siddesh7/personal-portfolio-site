@@ -19,20 +19,42 @@ export default function About() {
         </div>
         <div className="w-full md:w-[70%] pt-[30px] md:pt-[15px] md:pl-[20px]">
           <p className="text-[18px] md:text-[22px] lg:text-[24px] font-['Arial']">
-            My name is Siddesh and I love exploring cool tech, trying to play
-            with it and create useful stuff. I started into Programming only
-            when I found out it can ease my life. So I used to write scripts to
-            literally to every work I would have to do for hours either. And I
-            started freelancing Web development and that's when I got introduced
-            into Crypto. Since then I got fascinated with the web3 tech so
-            started to learn how to take part in the tech.
+            My name is Siddesh and{" "}
+            <span className="text-[#5ff3d1]">
+              I love exploring cool tech,&nbsp;
+            </span>
+            trying to play with it and create some cool shit. I started into
+            Programming only when I realised I can basically automate my
+            routines. So I started writing scripts to complete my work and
+            slowly started to{" "}
+            <span className="text-[#5ff3d1]">monetise&nbsp;</span>
+            it. I started freelancing Web development and that's when I got
+            introduced into Crypto. The web3 tech is truly amazing and the more
+            I learn about it, the more becomes my willingness to contribute back
+            to the space.
             <br></br>
-            <br></br>I have contributed to various web3 projects in terms of
-            content creation and also in touch with great people in the web3
-            space. I basically write code and also love doing web3 events.
+            <br></br>I write long tech stories{" "}
+            {<span className="text-[#5ff3d1]">(sometimes JPEG stories)</span>}{" "}
+            and have contributed to a variety of web3 projects. I love doing
+            events and also lead{" "}
+            <a className="text-[#5ff3d1]" href="https://coindcx.com/">
+              CoinDCX
+            </a>{" "}
+            <a
+              className="text-[#5ff3d1]"
+              href="https://chat.whatsapp.com/E3ieiVcmspJ4z9OMPZfalt"
+            >
+              Local Chapter
+            </a>{" "}
+            in my city!
             <br></br>
             <br></br>
-            Code + web3 vibes + Networking = Siddesh (wagmi)
+            <span className="text-[#5ff3d1]">
+              I do bounties occasionally&nbsp;
+            </span>
+            {`(Who doesn't like some extra cash!)`}
+            <br></br>
+            <br></br>
           </p>
         </div>
       </div>

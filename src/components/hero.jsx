@@ -3,6 +3,7 @@ import { keyframes } from "styled-components";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../lotties/man.json";
+import animationData2 from "../lotties/laptop.json";
 import { SocialIcon } from "react-social-icons";
 export default function Hero() {
   return (
@@ -46,6 +47,9 @@ export default function Hero() {
         <div className="absolute hidden sm:block lg:static right-[-90px] bottom-[5%] h-[260px] lg:h-[300px]">
           <Lottie options={defaultOptions} />
         </div>
+        <div className="absolute right-[-40px] bottom-[90px] flex sm:hidden">
+          <Lottie options={defaultOptions2} height={200} width={200} />
+        </div>
       </div>
     </>
   );
@@ -54,6 +58,14 @@ const defaultOptions = {
   loop: true,
   autoplay: true,
   animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
+const defaultOptions2 = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData2,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },

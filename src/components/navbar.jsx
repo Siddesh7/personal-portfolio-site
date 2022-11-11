@@ -1,3 +1,4 @@
+import Resume from "../assets/resume.pdf";
 export default function Navbar() {
   return (
     <div className="relative w-[100vw]">
@@ -14,9 +15,14 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="absolute right-[55px] top-[50%] translate-y-[-50%] px-[18px] py-[6px] text-[#5ff3d1] hover:text-white transition duration-300 ease-in-out border-2 rounded hover:border-[#5ff3d1] hidden lg:block">
-        <button>Resume</button>
-      </div>
+      <a
+        className="absolute right-[55px] top-[50%] translate-y-[-50%] px-[18px] py-[6px] text-[#5ff3d1] hover:text-white transition duration-300 ease-in-out border-2 rounded hover:border-[#5ff3d1] hidden lg:block"
+        href="https://drive.google.com/file/d/12Kao96fxzOtgALXD8VIUeAaCVycZGBDc/view?usp=sharing"
+        target={"_blank"}
+        rel={"noreferrer"}
+      >
+        Resume
+      </a>
     </div>
   );
 }
