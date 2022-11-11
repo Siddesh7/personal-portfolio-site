@@ -18,7 +18,7 @@ export default function About() {
           />
         </div>
         <div className="w-full md:w-[70%] pt-[30px] md:pt-[15px] md:pl-[20px]">
-          <p className="text-[18px] md:text-[22px] lg:text-[24px] font-['Lato'] font-medium">
+          <p className="text-[18px] md:text-[22px] lg:text-[24px] font-['Arial']">
             My name is Siddesh and I love exploring cool tech, trying to play
             with it and create useful stuff. I started into Programming only
             when I found out it can ease my life. So I used to write scripts to

@@ -43,7 +43,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="absolute lg:static right-[-50px] bottom-[5%] h-[260px] lg:h-[300px]">
+        <div className="absolute hidden sm:block lg:static right-[-90px] bottom-[5%] h-[260px] lg:h-[300px]">
           <Lottie options={defaultOptions} />
         </div>
       </div>
