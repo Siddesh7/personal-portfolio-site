@@ -8,7 +8,15 @@ export default function Timeline() {
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
-              <span class="flag">Building Superfluid SuperApp</span>
+              <span class="flag">
+                <a
+                  href="https://github.com/Siddesh7/PayDay"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Building Superfluid SuperApp
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">Now</span>
               </span>
@@ -22,14 +30,24 @@ export default function Timeline() {
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag">Eth-Split - EthOnline</span>
+              <span class="flag">
+                {" "}
+                <a
+                  href="https://github.com/Siddesh7/eth-split1"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Eth-Split - EthOnline
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">2022-Sep</span>
               </span>
             </div>
             <div class="desc">
-              Built a UI for splitting bills on EVM chains and won $250 for best
-              use of Covalent API.
+              Built a UI for splitting bills on EVM chains and won{" "}
+              <span className="text-[#5ff3d1]">$250</span> for best use of
+              Covalent API.
             </div>
           </div>
         </li>
@@ -37,7 +55,16 @@ export default function Timeline() {
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
-              <span class="flag">Joined MetaStart</span>
+              <span class="flag">
+                {" "}
+                <a
+                  href="https://metastart.in/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Joined MetaStart
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">2022-Aug</span>
               </span>
@@ -51,7 +78,16 @@ export default function Timeline() {
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag ">Movie Finder App</span>
+              <span class="flag ">
+                {" "}
+                <a
+                  href="https://mv-mvp.netlify.app/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Movie Finder App
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">2022-Aug</span>
               </span>
@@ -72,14 +108,19 @@ export default function Timeline() {
               </span>
             </div>
             <div class="desc">
-              Completed a $1200 worth freelance web development project.
+              Successfully shipped a high ticket freelance web project.
             </div>
           </div>
         </li>
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag">Crypto Price Aggregator App</span>
+              <span class="flag">
+                {" "}
+                <a href="https://soiy.me/" target={"_blank"} rel="noreferrer">
+                  Crypto Price Aggregator App
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">2022-July</span>
               </span>
@@ -105,7 +146,16 @@ export default function Timeline() {
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag">Launched a web dev agency</span>
+              <span class="flag">
+                {" "}
+                <a
+                  href="https://websidyn.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Launched a web dev agency
+                </a>
+              </span>
               <span class="time-wrapper">
                 <span class="time">2020-Nov</span>
               </span>
